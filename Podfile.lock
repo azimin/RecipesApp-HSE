@@ -1,0 +1,41 @@
+PODS:
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - OAStackView (1.0.1)
+  - PySwiftyRegex (0.2.2)
+  - Realm (0.102.1):
+    - Realm/Headers (= 0.102.1)
+  - Realm/Headers (0.102.1)
+  - RealmSwift (0.102.1):
+    - Realm (= 0.102.1)
+  - SQLite.swift (0.10.1)
+  - SVProgressHUD (2.0.3)
+  - SwiftCSV (0.3.2)
+  - SwiftyJSON (2.3.2)
+  - Timepiece (0.4.2)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - OAStackView
+  - PySwiftyRegex
+  - RealmSwift
+  - SQLite.swift
+  - SVProgressHUD
+  - SwiftCSV
+  - SwiftyJSON
+  - Timepiece
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  OAStackView: 95e7cb79cbea25c2342f496a44bdbe8bd4c8d510
+  PySwiftyRegex: 78f989c59ee3bec812f9dc980b3723d60d0e5dca
+  Realm: 5254be610db3e5024879684717bf038990bb59ec
+  RealmSwift: 3e24e6bcf56d98ccc134f4909e00839b81a659af
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftCSV: 8b64b738fc54567d229acb17ce6d584e0dd27560
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  Timepiece: cf53bb908bf542acc0e3d5f69cabfed869df4ebd
+
+COCOAPODS: 0.39.0

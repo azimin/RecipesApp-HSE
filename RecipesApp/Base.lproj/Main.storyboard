@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Yd-ma-t4T">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Jyf-7R-kbj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Yd-ma-t4T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="j1F-Ur-poZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="O9R-j7-CS2" kind="relationship" relationship="rootViewController" id="nC1-Iq-2KI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Le8-M1-cnA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="307"/>
+        </scene>
+        <!--Recipes Table View Controller-->
+        <scene sceneID="ECe-Tg-uuj">
+            <objects>
+                <tableViewController id="O9R-j7-CS2" customClass="RecipesTableViewController" customModule="RecipesApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="7qQ-yf-pqg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="O9R-j7-CS2" id="bBe-NB-BeX"/>
+                            <outlet property="delegate" destination="O9R-j7-CS2" id="Fr3-mf-Ovu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="d07-Uj-SHT"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVM-vH-H5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="978" y="319"/>
+        </scene>
+    </scenes>
+</document>
